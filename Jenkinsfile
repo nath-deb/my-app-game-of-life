@@ -1,5 +1,5 @@
 node{
-	stage('SCM Checkout')
+	stage('SCM Checkout'){
 		git 'https://github.com/nath-deb/my-app-game-of-life'
 	}
 	stage('Compile-Package'){
